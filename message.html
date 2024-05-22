@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="images/png" rel="icon" href="images/icons8-youtube.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Youtube </title>
+</head>
+
+<body>
+  <!--    header      -->
+  <header class="header">
+    <div class="header_container">
+      <div class="none"> </div>
+      <div class="search">
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+
+      <div class="user">
+        <div class="icon">
+          <i class="fa-solid fa-bell"></i>
+        </div>
+
+        <div class="img">
+          <img src="images/logo.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="toggle">
+        <i class="fa-solid fa-bars" id="header-toggle"></i>
+      </div>
+    </div>
+  </header>
+  <!--    header      -->
+
+
+  <!--    nav      -->
+  <section class="nav" id="navbar">
+    <nav class="nav_container">
+      <div>
+        <a href="#" class="nav_link nav_logo ">
+          <i class="fa-solid fa-bars nav_icon"></i>
+          <span class="logo_name">
+            <i class="fab fa-youtube"></i>
+            Youtube
+          </span>
+        </a>
+
+        <div class="nav_list">
+          <div class="nav_items navtop">
+            <a href="index.html" class="nav_link navtop active">
+              <i class="fa fa-house nav_icon"></i>
+              <span class="nav_name">Home</span>
+            </a>
+            <a href="channel.html" class="nav_link navtop">
+              <i class="fa-solid fa-users nav_icon"></i>
+              <span class="nav_name">Channel</span>
+            </a>
+            <a href="history.html" class="nav_link navtop">
+              <i class="fa-solid fa-clock-rotate-left nav_icon"></i>
+              <span class="nav_name">History</span>
+            </a>
+            <a href="like.html" class="nav_link navtop">
+              <i class="fa-solid fa-thumbs-up nav_icon"></i>
+              <span class="nav_name">Like</span>
+            </a>
+
+            <a href="message.html" class="nav_link">
+              <i class="fa-solid fa-comment nav_icon"></i>
+              <span class="nav_name">Messages</span>
+            </a>
+          </div>
+
+          <div class="nav_items subscribe-container">
+            <h3 class="nav_subititle">SUBSCRIPTIONS</h3>
+
+            <a href="profile.html" class="nav_link">
+              <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" alt="">
+              <span class="nav_name">Dapspeloper</span>
+            </a>
+            <a href="profile.html" class="nav_link">
+              <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
+              <span class="nav_name">dapscreator</span>
+            </a>
+            <a href="profile.html" class="nav_link">
+              <img class="subscribe" src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
+              <span class="nav_name">Backend dapspeloper</span>
+            </a>
+            <a href="profile.html" class="nav_link">
+              <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+              <span class="nav_name">Frontend Dapspeloper</span>
+            </a>
+          
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--    nav      -->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .message-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .message {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    .message .sender {
+      font-weight: bold;
+      color: #007bff; /* You can change the color as needed */
+    }
+    .message .timestamp {
+      font-size: 0.8em;
+      color: #666;
+    }
+    .message .content {
+      margin-top: 5px;
+    }
+  </style>
+  <ul class="message-list">
+    <li class="message">
+      <span class="sender">John</span>
+      <span class="timestamp">May 21, 2024 10:00 AM</span>
+      <div class="content">
+        Hey there, how's it going?
+      </div>
+    </li>
+    <li class="message">
+      <span class="sender">Alice</span>
+      <span class="timestamp">May 21, 2024 10:05 AM</span>
+      <div class="content">
+        Hi John! I'm doing great, thanks for asking.
+      </div>
+    </li>
+    <!-- More messages can be added here -->
+  </ul>
+ 
+
+
+
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
